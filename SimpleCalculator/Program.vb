@@ -21,8 +21,8 @@ Module Program
         userimput = Console.ReadLine()
 
         'preform operation
-        Console.WriteLine(firstnumber & userimput & secondnumber & ("="))
-        result += firstnumber userimput secondnumber
+        Console.WriteLine(("expretion") & " " & firstnumber & userimput & secondnumber & ("="))
+        'result += firstnumber userimput secondnumber
 
     End Sub
 End Module
