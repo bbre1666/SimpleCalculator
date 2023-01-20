@@ -10,14 +10,14 @@ Module Program
         Dim result As String
         Dim userimput As String
 
-        Console.WriteLine("Hello Ready for some adtion")
+        Console.WriteLine("Hello Ready for some math")
 
         'assign varables 
-        Console.WriteLine("What is the first number")
+        Console.WriteLine("Enter the first number")
         firstnumber = Console.ReadLine()
-        Console.WriteLine("What is the second number")
+        Console.WriteLine("Enter the second number")
         secondnumner = Console.ReadLine()
-        Console.WriteLine("what operation would you like preformed (+ *)")
+        Console.WriteLine("what operation would you like preformed (+/*)")
         userimput = Console.ReadLine()
 
         'preform operation +
@@ -27,12 +27,12 @@ Module Program
             Console.WriteLine(result)
         End If
 
-        'preform operation -
-        If userimput = "-" Then
-            Console.WriteLine(("expretion") & " " & firstnumber & "-" & secondnumner & ("=") & result)
-            result = firstnumber - secondnumner
-            Console.WriteLine(result)
-        End If
+        ''preform operation -
+        'If userimput = "-" Then
+        '    Console.WriteLine(("expretion") & " " & firstnumber & "-" & secondnumner & ("=") & result)
+        '    result = firstnumber - secondnumner
+        '    Console.WriteLine(result)
+        'End If
 
         'preform operation *
         If userimput = "*" Then
@@ -41,12 +41,12 @@ Module Program
             Console.WriteLine(result)
         End If
 
-        'preform operation *
-        If userimput = "/" Then
-            Console.WriteLine(("expretion") & " " & firstnumber & "/" & secondnumner & ("=") & result)
-            result = firstnumber / secondnumner
-            Console.WriteLine(result)
-        End If
+        ''preform operation /
+        'If userimput = "/" Then
+        '    Console.WriteLine(("expretion") & " " & firstnumber & "/" & secondnumner & ("=") & result)
+        '    result = firstnumber / secondnumner
+        '    Console.WriteLine(result)
+        'End If
 
     End Sub
 End Module
