@@ -1,6 +1,11 @@
 Imports System
 Imports System.Diagnostics.CodeAnalysis
 Imports System.Net.Security
+'Baden Brenner
+'RCET0265
+'Spring 2023  
+'Simple Calculator
+'https://github.com/bbre1666/SimpleCalculator.git
 
 Module Program
     Sub Main(args As String())
